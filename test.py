@@ -1,14 +1,15 @@
-import subprocess
+import json
+start= "2026-07-26 16:03"
+end = "2026-07-26 17:00"
+def search(start, end):
+    
 
-def now_playing_music():
-    script = '''
-    tell application "Spotify"
-        if player state is playing then
-            return (name of current track) & " — " & (artist of current track)
-        end if
-    end tell
-    '''
-    return subprocess.run(["osascript", "-e", script],
-                          capture_output=True, text=True).stdout.strip()
-
-print(now_playing_music())
+    with open("history.json", "r") as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            return "History log seems to be empty"
+    for data in data:
+        if data["Date"]>= start and data["Date"] <= end:
+            print(data)
+search(start, end)  
