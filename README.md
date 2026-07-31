@@ -3,6 +3,12 @@ Noted is a python backend that keeps track of all the music played on your mac, 
 
 # Features
 Apart from plain data logging, Noted's MCP server allows your favorite llm to inteligently query your data intead loading 10's of thousands of tokens, giving you better results and saving you tokens. 
+# Supported apps
+
+- Spotify
+- Apple Music
+- Web browsers(though they are not enabled by default to keep videos out of your data)
+- Make a pr/ issue if you want something else added!
 
 # Motive
 As someone that listens to toooons of music, I fouund that spotify was feeding me the same 50 songs over and over and I know I'm not the only one. I dislike/ have little experience making frontends though, as I have a impossible time making them look good at all, and also wanted to expirement with creating my own mcp servers, after using many premade ones. 
