@@ -1,82 +1,26 @@
 [
     {
-        "Artist": "Daft Punk",
-        "Title": "Give Life Back to Music",
-        "Duration": "4:34",
-        "Description": "disco-infused electronic, euphoric, analog-driven, propulsive, cinematic, cosmic, triumphant, vast, space-age, ecstatic",
-        "Date": "2026-07-26 15:54:",
-        "Played song for(seconds)": 115
-    },
-    {
-        "Artist": "Daft Punk",
-        "Title": "Contact",
-        "Duration": "6:21",
-        "Description": null,
-        "Date": "2026-07-26 15:54:",
-        "Played song for(seconds)": 5
-    },
-    {
-        "Artist": "Daft Punk, Pharrell Williams & Nile Rodgers",
-        "Title": "Get Lucky",
-        "Duration": "6:09",
-        "Description": "cosmic, euphoric, pulsating disco-house, shimmering synths, triumphant, interstellar, driving bass, cinematic, nostalgic, rapturous, transcendent",
-        "Date": "2026-07-26 15:54:",
-        "Played song for(seconds)": 5
-    },
-    {
-        "Artist": "Daft Punk",
-        "Title": "Contact",
-        "Duration": "6:21",
-        "Description": "melancholic, tender, cinematic, orchestral, bittersweet, introspective, ethereal, atmospheric, lush, late-night drive, electronic with orchestral layers",
-        "Date": "2026-07-26 15:55:",
-        "Played song for(seconds)": 20
-    },
-    {
-        "Artist": "Daft Punk & Paul Williams",
-        "Title": "Touch",
-        "Duration": "8:18",
-        "Description": "funky, euphoric, cosmic, soulful, warm, groovy, lush, dreamlike, transcendent, nocturnal, layered, atmospheric",
-        "Date": "2026-07-26 16:03:",
-        "Played song for(seconds)": 485
-    },
-    {
-        "Artist": "Daft Punk",
-        "Title": "Beyond",
-        "Duration": "4:50",
-        "Description": "futuristic French house, dreamy and ethereal, glitchy lush synths, neon-lit cybernetic landscape",
-        "Date": "2026-07-26 16:08:",
-        "Played song for(seconds)": 275
-    },
-    {
-        "Artist": "Coldplay",
-        "Title": "Hymn for the Weekend",
-        "Duration": "4:18",
-        "Description": "gospel-pop, euphoric, celebratory, shimmering synth textures, soaring vocals, tropical-night street party, warm, joyful, uplifting, piano-driven",
-        "Date": "2026-07-26 16:37:",
+        "Artist": "SplashFoam",
+        "Title": "M04   B002   Doctor Clean Idea V1 16x9",
+        "Duration": "2:48",
+        "Description": "genre unknown",
+        "Date": "2026-07-30 16:15",
         "Played song for(seconds)": 0
     },
     {
-        "Artist": "Coldplay",
-        "Title": "Hymn for the Weekend",
-        "Duration": "4:18",
-        "Description": "cinematic synth-pop, melancholic, defiant, hazy, slow-burning, layered, disillusioned, bittersweet, twilight-Americana, nostalgic",
-        "Date": "2026-07-26 16:38:",
-        "Played song for(seconds)": 30
+        "Artist": "SplashFoam",
+        "Title": "M04   B002   Doctor Clean Idea V1 16x9",
+        "Duration": "2:48",
+        "Description": "genre unknown",
+        "Date": "2026-07-30 16:15",
+        "Played song for(seconds)": 5
     },
     {
-        "Artist": "Taylor Swift",
-        "Title": "Miss Americana & The Heartbreak Prince",
-        "Duration": "3:54",
-        "Description": "indie lo-fi, sarcastic and confrontational, gritty distorted guitar over muffled beats, dorm room at 3 AM fueled by caffeine and resentment",
-        "Date": "2026-07-26 16:48:",
-        "Played song for(seconds)": 395
-    },
-    {
-        "Artist": "NorthernHurricane7",
-        "Title": "Software Engineering Slander",
-        "Duration": "0:46",
-        "Description": "cinematic, synth-pop, melancholic, bittersweet, nostalgic, atmospheric, anthemic, glittering, dark-pop, high school reverie",
-        "Date": "2026-07-26 16:50:",
-        "Played song for(seconds)": 105
+        "Artist": "Jeff Guo",
+        "Title": "I asked Fable 5 to make me a lyric video",
+        "Duration": "3:17",
+        "Description": "genre unknown",
+        "Date": "2026-07-30 19:57",
+        "Played song for(seconds)": 6930
     }
 ]

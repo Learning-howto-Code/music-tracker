@@ -14,10 +14,12 @@ from openrouter import OpenRouter
 from pathlib import Path
 history_file =  Path(__file__).parent / "history.json"
 load_dotenv()
-model = 'inclusionai/ling-3.0-flash:free'
+model = "google/gemini-3.6-flash"
+nowplaying = "/opt/homebrew/bin/nowplaying-cli"
 
 def get_song():
-    info = subprocess.run(["nowplaying-cli", "get", "artist", "title", "MediaType", "duration"], capture_output=True, text=True)
+    global nowplaying
+    info = subprocess.run([nowplaying, "get", "artist", "title", "MediaType", "duration"], capture_output=True, text=True)
     song_dict= info.stdout.strip().split("\n")
     song_dict= dict(zip(["artist", "title", "MediaType", "duration"], song_dict))
     print(song_dict)
@@ -66,7 +68,7 @@ def log_song(song_dict, response, elapsed_time):
         "Title": song_dict["title"],
         "Duration": duration,
         "Description": response,
-        "Date": time.strftime("%Y-%m-%d %H:%M:", time.localtime()),
+        "Date": time.strftime("%Y-%m-%d %H:%M", time.localtime()),
         "Played song for(seconds)": elapsed_time
     }
 
